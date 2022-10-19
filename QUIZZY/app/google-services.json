@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "478399008633",
+    "firebase_url": "https://quizzy-f8298.firebaseio.com",
+    "project_id": "quizzy-f8298",
+    "storage_bucket": "quizzy-f8298.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:478399008633:android:71e3cd3f620eb4ca",
+        "android_client_info": {
+          "package_name": "com.example.dell.quizzy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "478399008633-2igm4dgtrkuun5q74qs2jgrhkm50aaq0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dell.quizzy",
+            "certificate_hash": "00323633a8bda67bd732bc9e2a44834d113e2680"
+          }
+        },
+        {
+          "client_id": "478399008633-oglf8nhbu74rvl1dfbmsrug3ecdn3abr.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "478399008633-oglf8nhbu74rvl1dfbmsrug3ecdn3abr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0WS9LdDGH8j1YuwWHV6JJeBLVI3v3LDE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "478399008633-oglf8nhbu74rvl1dfbmsrug3ecdn3abr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:background="@drawable/quizhome"
+    tools:context=".Settings">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="3"
+    android:background="#12565d"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Settings"
+        android:textColor="#fff"
+        android:textSize="50dp"
+        android:paddingLeft="90dp"
+        android:paddingTop="10dp"
+        />
+</LinearLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="7">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textSize="30dp"
+        android:text="Sound :"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:padding="39dp"
+        />
+    <Switch
+        android:id="@+id/soundswitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="50dp"
+        android:shadowColor="#fff"
+        />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textSize="30dp"
+            android:text="Music :"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:paddingLeft="39dp"
+            android:paddingTop="100dp"
+            />
+        <Switch
+            android:id="@+id/musicswitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="114dp"
+            android:shadowColor="#fff"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vibration :"
+            android:textColor="#fff"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:paddingLeft="39dp"
+            android:paddingTop="165dp"/>
+        <Switch
+            android:id="@+id/vibrationswitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="177dp"
+            android:shadowColor="#fff"
+            />
+
+    </RelativeLayout>
+</LinearLayout>

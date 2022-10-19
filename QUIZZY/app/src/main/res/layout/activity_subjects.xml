@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10"
+    android:orientation="vertical"
+    android:background="@drawable/quizhome"
+
+    tools:context=".Subjects">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="2"
+    android:background="#12565d">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Select Your Subject"
+        android:textColor="#fff"
+        android:textSize="35dp"
+        android:paddingLeft="27dp"
+        android:paddingTop="27dp"
+        android:textStyle="bold"
+        />
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginTop="55dp"
+        android:layout_weight="4">
+
+        <android.support.v7.widget.CardView
+
+            android:id="@+id/cardviewC"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:elevation="10dp"
+            app:cardElevation="15dp"
+            app:cardMaxElevation="22dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="       C Language"
+                android:textStyle="bold"
+                android:paddingLeft="8dp"
+                android:paddingTop="30dp"
+                android:textColor="#fff"
+                android:background="#12565d"
+                android:textSize="30dp"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+
+            android:id="@+id/cardviewC2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:cardElevation="15dp"
+            android:layout_marginLeft="30dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="     C++ Language"
+                android:paddingLeft="8dp"
+                android:paddingTop="30dp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:background="#12565d"
+                android:textSize="30dp"/>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="13dp"
+        android:layout_weight="4">
+
+        <android.support.v7.widget.CardView
+
+            android:id="@+id/cardviewjava"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:elevation="40dp"
+            app:cardElevation="15dp"
+            app:cardMaxElevation="22dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="JAVA"
+                android:paddingLeft="35dp"
+                android:paddingTop="53dp"
+                android:background="#12565d"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textSize="30dp"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardviewandroid"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:cardElevation="15dp"
+            android:layout_marginLeft="30dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="ANDROID"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:background="#12565d"
+                android:textColor="#fff"
+                android:paddingRight="4dp"
+                android:textSize="30dp"/>
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</LinearLayout>

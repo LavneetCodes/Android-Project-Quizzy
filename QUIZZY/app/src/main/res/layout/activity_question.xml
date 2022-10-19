@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:weightSum="10"
+    tools:context=".Question">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="#2742D6">
+
+        <TextView
+            android:id="@+id/questionnumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:text="10"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="15dp"/>
+
+
+        <TextView
+          android:layout_marginTop="1dp"
+          android:text="/15"
+          android:textSize="20dp"
+          android:textColor="#fff"
+          android:layout_gravity="center"
+          android:layout_marginLeft="4dp"
+          android:gravity="center"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          />
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/coins2"
+    android:layout_marginTop="8dp"
+    android:layout_marginLeft="190dp"/>
+
+
+        <TextView
+            android:id="@+id/textviewscore"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="999"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="4dp"
+            />
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1.5"
+    android:orientation="horizontal"
+    android:weightSum="15">
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="5"
+    android:orientation="vertical"
+    android:weightSum="2">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:src="@drawable/wrongtick"
+        />
+    <TextView
+        android:id="@+id/wrongquestions"
+        android:layout_gravity="center"
+        android:layout_marginLeft="3dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="31dp"
+        android:text="hmh"/>
+</LinearLayout>
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="5">
+    <TextView
+        android:id = "@+id/timer"
+        android:background="@drawable/options"
+        android:text="20"
+        android:layout_width="60dp"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="#000"
+        android:textSize="18dp"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+
+    <ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/right_tick3"
+    android:layout_marginTop="1dp"
+    android:layout_marginLeft="66dp"/>
+
+        <TextView
+            android:id="@+id/rightquestions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="byjrf"
+            android:layout_marginLeft="19dp"
+            android:layout_gravity="center"/>
+        </LinearLayout>
+
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="3.5"
+    android:layout_margin="10dp">
+
+    <Button
+        android:id="@+id/questionbuttontext"
+        android:background="@drawable/question"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:text="veggbdbdfbfvf  ncb djfbjfd fgkfjdkbc"/>
+</LinearLayout>
+<LinearLayout
+    android:layout_marginBottom="16dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="5"
+    android:layout_margin="15dp"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/option1buttontext"
+        android:background="@drawable/options"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="7dp"/>
+
+    <Button
+        android:id="@+id/option2buttontext"
+        android:background="@drawable/options"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="7dp"/>
+
+    <Button
+        android:id="@+id/option3buttontext"
+        android:background="@drawable/options"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="7dp"/>
+
+    <Button
+        android:id="@+id/option4buttontext"
+        android:background="@drawable/options"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="7dp"/>
+
+</LinearLayout>
+</LinearLayout>
